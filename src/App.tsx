@@ -39,7 +39,7 @@ const benefits = [
   'Service at Your Doorstep',
 ]
 
-const locations = ['Villupuram', 'Pondicherry (Puducherry)', 'Ulundurpettai', 'Kallakkurichi']
+const locations = ['Villupuram', 'Pondicherry', 'Ulundurpettai', 'Kallakkurichi']
 
 const testimonials = [
   {
@@ -374,7 +374,7 @@ function App() {
 
       <a
         href={whatsappHref}
-        className="fixed bottom-5 right-5 z-50 grid h-14 w-14 place-items-center rounded-full bg-green-600 text-white shadow-2xl transition hover:bg-green-700"
+        className="fixed bottom-5 right-5 z-50 grid h-13 w-13 place-items-center rounded-full bg-green-600 text-white shadow-2xl transition hover:bg-green-700"
         aria-label="Contact Jaya Enterprises on WhatsApp"
       >
         <WhatsAppIcon />
